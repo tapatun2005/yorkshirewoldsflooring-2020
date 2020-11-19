@@ -1,0 +1,25 @@
+div#main {
+	background		: url('/images/ie6-background.jpg');
+}
+
+div#before, div#after {
+	* background		: none;
+	* filter:progid:dximagetransform.Microsoft.AlphaImageLoader(src='/images/top-rip.png', sizingMethod='fixed'); 
+}
+
+div#after {
+	* background		: none;
+	* filter:progid:dximagetransform.Microsoft.AlphaImageLoader(src='/images/bottom-rip.png', sizingMethod='fixed'); 
+}
+
+ul#nav li.live:hover {
+	background-image	:url('/images/nav-list-bg-on.jpg');
+}
+
+div#shadow {
+	float				: left;
+	padding				: 0px;
+	width				: 1px;
+	height				: 560px;
+	background			: url('/images/right-shadow.jpg') top left no-repeat;
+}

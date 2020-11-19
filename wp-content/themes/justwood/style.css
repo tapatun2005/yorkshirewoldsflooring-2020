@@ -1,0 +1,245 @@
+/*
+Theme Name: JustWood
+Theme URI: 
+Description: JustWood Theme.
+Author: Andy Webb
+Author URI: 
+Version: 1.0.0
+Tags: jwf
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+@import url('/wp-includes/css/admin-bar.css');
+@import url('category.css');
+
+ul#nav, ul#nav li, div#main, div#before, div#after, ul#nav li a, div#solid-wood-div, div#engineered-div, div#main, div.clr {
+	padding				: 0px;
+	margin				: 0px;
+}
+
+body {
+	background			: url("images/jwf-tile-2.jpg") repeat;
+	font-size			: 62.5%;
+	font-family			: Georgia;
+	text-align 			: center;
+}
+
+body h1 {
+	font-family			: georgia;
+	font-size			: 2.0em;
+}
+
+div#main,
+div#before,
+div#after
+{
+	border				: 0px;
+}
+
+div#main
+{
+	padding				: 125px 75px 10px 263px;
+	text-align 			: left;
+	margin-left			: auto;
+	margin-right		: auto;
+	width				: 762px;
+	position			: relative;
+	background 			: url("images/mid-bg.png"); 
+}
+
+div#before,
+div#after {
+	margin-left			: auto;
+	margin-right		: auto;
+	height				: 56px;
+	width 				: 1100px;
+	background 			: url('images/top-rip.png');
+}
+
+div#after
+{
+	background 			: url('images/bottom-rip.png');
+}
+
+div.clr
+{
+	clear:both;
+}
+
+br
+{
+	clear				: both;
+	display				: block;
+	padding				: 0px;
+	margin				: 0px;
+	height				: 1px;
+}
+
+/* ---------- navigation styling ---------- */
+
+ul#nav
+{
+	position			: absolute;
+	left				: 65px;
+	top					: 125px;
+	z-index 			: 5000;
+}
+
+ul#nav li
+{
+	background-image	: url('images/nav-list-bg.jpg');
+	border-top 			: 1px solid #d8d6d3;
+	display 			: block;
+	width 				: 178px;
+	padding 			: 8px 5px 5px 10px;
+	font-size			: 1.2em;
+}
+
+ul#nav li:hover {
+	background-image	: url('images/nav-list-bg-hover.jpg');
+}
+
+ul#nav li.sp {
+	padding-top			: 60px;
+}
+
+ul#nav li.sp:hover {
+	background-image	: url('images/nav-list-bg.jpg');
+}
+
+ul#nav li a {
+	text-decoration		: none;
+	color				: #554125;
+	z-index				: 5000;
+}
+
+ul#nav li.live {
+	background  		: url('images/nav-list-bg-on.jpg');
+}
+
+ul#nav li.live a {
+	color				: #fff;
+}
+
+
+/* ---------- end of navigation ---------- */
+
+img#logoimg {
+	position			: absolute;
+	top					: 10px;
+	left				: 65px;
+}
+
+/*---- bottom links ----*/
+
+div#bottomlinks
+{
+	border-top 			: 1px solid #dedbd7;
+	margin-left			: -198px;
+	padding-top			: 10px;
+	text-align			: center;
+	clear				: both;
+}
+
+div#bottomlinks p {
+	font-size			: 1.2em;
+	color				: #554125;
+	padding				: 0 8px;
+	margin:0px;
+}
+
+div#bottomlinks ul
+{
+	padding				: 0px;
+	margin				: 0px;
+}
+
+div#bottomlinks ul li
+{
+	padding				: 0px;
+	margin 				: 0px;
+	font-size			: 1.2em;
+	float				: left;
+	border-left			: 1px solid #333;
+	list-style			: none;
+}
+
+div#bottomlinks ul li a
+{
+	color				: #666;
+	padding-left			: 8px;
+	padding-right			: 8px;
+}
+
+.alignright {
+	float:right;
+}
+
+img.floatme {
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+p.wtlink {
+	position:absolute;
+	right:90px;
+	top:60px;
+	font-size:12px;
+	
+}
+
+p.wtlink a {
+	color:#554125;
+}
+
+td {
+	padding:3px;
+}
+
+td.area {
+	background-color:#FAEDBB;
+}
+
+td.top {
+    background-color: #77613C;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div#map {
+	position:absolute;
+	height:370px;
+	width:370px;
+	top:265px;
+	right:100px;
+	background-color:#ddd;
+}
+
+p.wtlink a {
+	color:#7f213a;
+	font-weight:bold;
+}
+
+div#cycleleft, div#cycleright {
+	position:absolute;
+	top:6px;
+	left:0px;
+}
+
+#cycleleft script, #cycleright script {
+  display: none !important; }
+
+ul#menu-sitemap ul.sub-menu li {
+	font-size:13px;
+}
+
+div#mainpage {
+  min-height:600px;
+  height:auto !important;
+  height:600px;
+}

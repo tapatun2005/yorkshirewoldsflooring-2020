@@ -1,0 +1,115 @@
+div.fll { float:left; }
+div.flr { float:right; }
+
+div#mainpage {
+	background		: url('images/category-title-background.jpg') top left no-repeat;
+	float			: left;
+	padding-top		: 50px;
+	width			: 750px;
+	margin			: 0px 5px 0px 0px;
+}
+
+div#mainpage p {
+	font-size 		: 1.3em;
+	color			: #554125;
+	margin 			: 6px 0px 8px 0px;
+	padding-left	: 10px;
+}
+
+h1.top {
+	font-size 		: 2.0em;
+	margin			: 0px 20px 28px 20px !important;
+	text-transform 		: uppercase;
+	color 			: #edece9;
+}
+
+div#products, div#products2 {
+	background 		: #eeece9;
+	padding			: 10px;
+}
+
+div#products p, div#products2 p {
+	padding			: 5px 0px;
+	margin			: 0px;
+}
+
+div.product {
+	height			: 228px;
+	width			: 198px;
+	float			: left;
+	margin			: 2px;
+	padding 		: 20px;
+	position		: relative;
+}
+
+div.long {
+	height			: 300px;
+	position		: relative;
+}
+
+div#stk {
+	height:90px;
+	width:90px;
+	position:absolute;
+	top: 5px;
+	right: 5px;
+}
+
+div#mainpage li {
+	font-size 		: 1.3em;
+	color			: #554125;
+}
+
+div#mainpage a {
+	font-weight		: bold;
+	color			: #554125;
+}
+
+div.product img {
+	border:0px;
+}
+
+div.product a {
+	text-decoration	: none;
+}
+
+div.btn {
+    clear:both;
+}
+
+div.product h2, div.product h2 a {
+	display			: block;
+	font-size		: 1.4em;
+	padding			: 4px 0px 0px 0px;
+	margin			: 0px;
+	color			: #554125;
+	text-transform          : none;
+}
+
+div#mainpage h1,
+div#mainpage h2,
+div#mainpage h3,
+div#mainpage h4 {
+	margin 			: 10px;
+}
+
+div#mainpage ol li p {
+	font-size		: 1.0em;
+}
+
+div#mainpage ol li p strong {
+	display			: block;
+	border-bottom 	: 1px solid #554125;
+}
+
+div#mainpage ol li p span {
+	font-weight		: bold;
+}
+
+div#products div.product p, div#products2 div.product p {
+	font-size		: 1.2em;
+}
+
+div#products div.product h2.product {
+	margin:10px 0;
+}

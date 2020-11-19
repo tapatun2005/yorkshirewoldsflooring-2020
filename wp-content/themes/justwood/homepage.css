@@ -1,0 +1,55 @@
+div#mainpage h2 a,
+div#mainpage h2 a
+{
+	color				: #fff;
+	font-size			: 1.2em;
+	text-transform			: uppercase;
+	text-decoration			: none;
+	display				: block;
+	height				: 30px;
+}
+
+div.hpl, div.hpr {
+	float				: left;
+	height				: 315px;
+	width				: 352px;
+	position			: relative;
+	padding 			: 260px 10px 10px 10px;
+	background 			: url('images/left-column-background.jpg') top left no-repeat;
+	margin-right			: 3px;
+	margin-bottom			: 15px;
+}
+
+div#mainpage div.hpl div p,
+div#mainpage div.hpr div p {
+	color				: #443117;
+	font-size 			: 1.3em;
+	color				: #333;
+	padding				: 0px 10px;
+	padding-bottom			: 10px;
+}
+
+div#mainpage div.hpl div p.fst {
+	color				: #B79F75;
+}
+
+div#mainpage div.hpl div p.fst,
+div#mainpage div.hpr div p.fst {
+	height				: 90px;
+	font-size			: 1.4em;
+}
+
+div#mainpage div.hpl div p.snd,
+div#mainpage div.hpr div p.snd {
+	margin-top			: 15px;
+}
+
+div.hpr {
+	background 			: url('images/right-column-background.jpg') top left no-repeat;
+}
+
+div#mainpage{
+	background			: none;
+	padding-top			: 0px;
+}
+

@@ -1,0 +1,488 @@
+div#main {
+  background: url("images/ie6-background.jpg"); }
+
+div#before, div#after {
+  * background: none;
+  * filter: progid:dximagetransform.Microsoft.AlphaImageLoader(src='images/top-rip.png', sizingMethod='fixed'); }
+
+div#after {
+  * background: none;
+  * filter: progid:dximagetransform.Microsoft.AlphaImageLoader(src='images/bottom-rip.png', sizingMethod='fixed'); }
+
+ul#nav li.live:hover {
+  background-image: url("images/nav-list-bg-on.jpg"); }
+
+div#shadow {
+  float: left;
+  padding: 0px;
+  width: 1px;
+  height: 560px;
+  background: url("images/right-shadow.jpg") top left no-repeat; }
+
+br.clr {
+  clear: both; }
+
+div#map, div#info {
+  width: 365px;
+  padding: 5px;
+  float: left; }
+
+div#map {
+  height: 350px; }
+
+div#info form {
+  width: 330px; }
+
+div#info form input, div#info form label, div#info form textarea {
+  width: 60%;
+  display: block;
+  float: left;
+  margin-top: 4px; }
+
+div#info form label {
+  width: 35%;
+  color: #554125;
+  font-size: 1.2em; }
+
+div#info form input.submit {
+  width: 150px;
+  float: right;
+  margin-right: 20px; }
+
+p#warn {
+  font-weight: bold; }
+
+div#mainpage ul li ul li {
+  font-size: 1.0em; }
+
+td {
+  padding: 3px 3px;
+  font-size: 1.2em;
+  border-left: 1px solid #EDECE8; }
+
+td.area {
+  background: #faedbb; }
+
+td.top {
+  background-color: #77613C;
+  color: #fff;
+  font-weight: bold; }
+
+table {
+  padding-bottom: 10px; }
+
+/* These are standard sIFR styles... do not modify */
+.sIFR-flash {
+  visibility: visible !important;
+  margin: 0; }
+
+.sIFR-replaced {
+  visibility: visible !important; }
+
+span.sIFR-alternate {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden; }
+
+/* Hide Adblock Object tab: the text should show up just fine, not poorly with a tab laid over it. */
+.sIFR-flash + div[adblocktab=true] {
+  display: none !important; }
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+.sIFR-hasFlash h1 {
+  visibility: hidden; }
+
+div#solid-wood-div h2,
+div#engineered-div h2 {
+  font-size: 2.0em;
+  color: #fff;
+  margin-bottom: 8px;
+  font-weight: normal; }
+
+div#solid-wood-div h2 a,
+div#engineered-div h2 a {
+  color: #fff;
+  text-decoration: none; }
+
+.sIFR-hasFlash div#solid-wood-div h2,
+.sIFR-hasFlash div#engineered-div h2,
+.sIFR-hasFlash h1.top,
+.sIFR-hasFlash h2.describe {
+  visibility: hidden;
+  line-height: 28px; }
+
+.sIFR-hasFlash h2.describe, .sIFR-hasFlash h1.main {
+  line-height: 25px;
+  margin-bottom: 10px; }
+
+.sIFR-hasFlash h2.title, .sIFR-hasFlash h1.main {
+  line-height: 20px; }
+
+div#mainpage ul li a {
+  font-weight: normal; }
+
+div#mainpage ul li {
+  padding: 10px 0px; }
+
+/*
+Theme Name: JustWood
+Theme URI: 
+Description: JustWood Theme.
+Author: Andy Webb
+Author URI: 
+Version: 1.0.0
+Tags: jwf
+
+License:
+License URI:
+
+General comments (optional).
+*/
+/*@import url('/wp-includes/css/admin-bar.css');*/
+/*@import url('/wp-content/themes/justwood/category.css');*/
+ul#nav, ul#nav li, div#main, div#before, div#after, ul#nav li a, div#solid-wood-div, div#engineered-div, div#main, div.clr {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  background: url("images/jwf-tile-2.jpg") repeat;
+  font-size: 62.5%;
+  font-family: Georgia;
+  text-align: center; }
+
+body h1 {
+  font-family: georgia;
+  font-size: 2.0em; }
+
+div#main,
+div#before,
+div#after {
+  border: 0px; }
+
+div#main {
+  padding: 125px 75px 10px 263px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 762px;
+  position: relative;
+  background: url("images/mid-bg.png"); }
+
+div#before,
+div#after {
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  width: 1100px;
+  background: url("images/top-rip.png"); }
+
+div#after {
+  background: url("images/bottom-rip.png"); }
+
+div.clr {
+  clear: both; }
+
+br {
+  clear: both;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  height: 1px; }
+
+/* ---------- navigation styling ---------- */
+ul#nav {
+  position: absolute;
+  left: 65px;
+  top: 125px;
+  z-index: 5000; }
+
+ul#nav li {
+  background-image: url("images/nav-list-bg.jpg");
+  border-top: 1px solid #d8d6d3;
+  display: block;
+  width: 178px;
+  padding: 8px 5px 5px 10px;
+  font-size: 1.2em; }
+
+ul#nav li:hover {
+  background-image: url("images/nav-list-bg-hover.jpg"); }
+
+ul#nav li.sp {
+  padding-top: 60px; }
+
+ul#nav li.sp:hover {
+  background-image: url("images/nav-list-bg.jpg"); }
+
+ul#nav li a {
+  text-decoration: none;
+  color: #554125;
+  z-index: 5000; }
+
+ul#nav li.live {
+  background: url("images/nav-list-bg-on.jpg"); }
+
+ul#nav li.live a {
+  color: #fff; }
+
+/* ---------- end of navigation ---------- */
+img#logoimg {
+  position: absolute;
+  top: 10px;
+  left: 65px;
+  display: none; }
+
+/*---- VLAD Styles -----*/
+.header {
+  position: absolute;
+  top: 10px;
+  left: 65px;
+  width: 971px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  padding: 0px 20px 35px;
+  box-sizing: border-box; }
+
+.header::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.header__logo__title {
+  color: #786443;
+  font-weight: 400;
+  font-size: 38px;
+  margin: 5px 0; }
+
+.header__logo a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px; }
+
+.header__logo__title span {
+  color: #baa172; }
+
+.header__contact {
+  text-align: right; }
+
+.header__cta {
+  margin: 0;
+  color: #baa172;
+  font-size: 20px; }
+
+.header__contact a {
+  text-decoration: none;
+  color: #786443;
+  font-size: 32px; }
+
+/*---- bottom links ----*/
+div#bottomlinks {
+  border-top: 1px solid #dedbd7;
+  margin-left: -198px;
+  padding-top: 10px;
+  text-align: center;
+  clear: both; }
+
+div#bottomlinks p {
+  font-size: 1.2em;
+  color: #554125;
+  padding: 0 8px;
+  margin: 0px; }
+
+div#bottomlinks ul {
+  padding: 0px;
+  margin: 0px; }
+
+div#bottomlinks ul li {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.2em;
+  float: left;
+  border-left: 1px solid #333;
+  list-style: none; }
+
+div#bottomlinks ul li a {
+  color: #666;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.alignright {
+  float: right; }
+
+img.floatme {
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+
+p.wtlink {
+  position: absolute;
+  right: 90px;
+  top: 60px;
+  font-size: 12px; }
+
+p.wtlink a {
+  color: #554125; }
+
+td {
+  padding: 3px; }
+
+td.area {
+  background-color: #FAEDBB; }
+
+td.top {
+  background-color: #77613C;
+  color: #FFFFFF;
+  font-weight: bold; }
+
+div#map {
+  position: absolute;
+  height: 370px;
+  width: 370px;
+  top: 265px;
+  right: 100px;
+  background-color: #ddd; }
+
+p.wtlink a {
+  color: #7f213a;
+  font-weight: bold; }
+
+div#cycleleft, div#cycleright {
+  position: absolute;
+  top: 6px;
+  left: 0px; }
+ 
+ #cycleleft script, #cycleright script {
+  display: none !important; }
+
+ul#menu-sitemap ul.sub-menu li {
+  font-size: 13px; }
+
+div#mainpage {
+  min-height: 600px;
+  height: auto !important;
+  height: 600px; }
+
+.p-flex p {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center; }
+
+div.fll {
+  float: left; }
+
+div.flr {
+  float: right; }
+
+div#mainpage {
+  background: url("images/category-title-background.jpg") top left no-repeat;
+  float: left;
+  padding-top: 50px;
+  width: 750px;
+  margin: 0px 5px 0px 0px; }
+
+div#mainpage p {
+  font-size: 1.3em;
+  color: #554125;
+  margin: 6px 0px 8px 0px;
+  padding-left: 10px; }
+
+h1.top {
+  font-size: 2.0em;
+  margin: 0px 20px 28px 20px !important;
+  text-transform: uppercase;
+  color: #edece9; }
+
+div#products, div#products2 {
+  background: #eeece9;
+  padding: 10px; }
+
+div#products p, div#products2 p {
+  padding: 5px 0px;
+  margin: 0px; }
+
+div.product {
+  height: 228px;
+  width: 198px;
+  float: left;
+  margin: 2px;
+  padding: 20px;
+  position: relative; }
+
+div.long {
+  height: 300px;
+  position: relative; }
+
+div#stk {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 5px;
+  right: 5px; }
+
+div#mainpage li {
+  font-size: 1.3em;
+  color: #554125; }
+
+div#mainpage a {
+  font-weight: bold;
+  color: #554125; }
+
+div.product img {
+  border: 0px; }
+
+div.product a {
+  text-decoration: none; }
+
+div.btn {
+  clear: both; }
+
+div.product h2, div.product h2 a {
+  display: block;
+  font-size: 1.4em;
+  padding: 4px 0px 0px 0px;
+  margin: 0px;
+  color: #554125;
+  text-transform: none; }
+
+div#mainpage h1,
+div#mainpage h2,
+div#mainpage h3,
+div#mainpage h4 {
+  margin: 10px; }
+
+div#mainpage ol li p {
+  font-size: 1.0em; }
+
+div#mainpage ol li p strong {
+  display: block;
+  border-bottom: 1px solid #554125; }
+
+div#mainpage ol li p span {
+  font-weight: bold; }
+
+div#products div.product p, div#products2 div.product p {
+  font-size: 1.2em; }
+
+div#products div.product h2.product {
+  margin: 10px 0; }
+
+/*# sourceMappingURL=app.css.map */
