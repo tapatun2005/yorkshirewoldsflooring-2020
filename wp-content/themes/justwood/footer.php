@@ -1,5 +1,5 @@
 <div id="bottomlinks">
-<?php get_template_part('navigation','bottom'); ?>
+	<?php get_template_part('navigation','bottom'); ?>
 </div>
 </div>
 <div id="after"></div>
