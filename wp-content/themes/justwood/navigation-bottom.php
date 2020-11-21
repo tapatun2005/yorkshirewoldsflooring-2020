@@ -6,5 +6,5 @@ echo wp_nav_menu(array(
 ));
 ?>
 <?php if(is_front_page()) : ?>
-	<a href="http://www.justwoodworktops.com/">JustWoodWorktops.com</a>
+	<!-- <a href="http://www.justwoodworktops.com/">JustWoodWorktops.com</a> -->
 <?php endif; ?>

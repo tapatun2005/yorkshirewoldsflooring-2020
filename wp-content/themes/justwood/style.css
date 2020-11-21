@@ -231,6 +231,13 @@ div#cycleleft, div#cycleright {
 	left:0px;
 }
 
+div#cycleleft img, 
+div#cycleright img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 #cycleleft script, #cycleright script {
   display: none !important; }
 

@@ -4,11 +4,11 @@
 <div class="hpl">
 	<div id="cycleleft">
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid01.jpg" width="372" height="245" />
-		<!-- <img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid02.jpg" width="372" height="245" />
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid02.jpg" width="372" height="245" />
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid03.jpg" width="372" height="245" />
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid04.jpg" width="372" height="245" />
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid05.jpg" width="372" height="245" />
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid06.jpg" width="372" height="245" /> -->
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid06.jpg" width="372" height="245" />
 	</div>
 	<div>
 		<h2><a href="<?php echo get_permalink(6) ?>">solid wood flooring</a></h2>
@@ -21,11 +21,11 @@
 <div class="hpr">
 	<div id="cycleright">
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered01.jpg" width="372" height="245" />
-		<!-- <img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered02.jpg" width="372" height="245" />
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered02.jpg" width="372" height="245" />
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered03.jpg" width="372" height="245" />
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered04.jpg" width="372" height="245" />
 		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered05.jpg" width="372" height="245" />
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered06.jpg" width="372" height="245" /> -->
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered06.jpg" width="372" height="245" />
 	</div>
 	<div>
 		<h2><a href="<?php echo get_permalink(11) ?>">engineered wood flooring</a></h2>

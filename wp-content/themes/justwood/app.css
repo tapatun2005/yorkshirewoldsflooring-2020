@@ -365,6 +365,20 @@ div#cycleleft, div#cycleright {
   position: absolute;
   top: 6px;
   left: 0px; }
+
+  #cycleleft img, 
+  #cycleright img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+  }
+
+  #cycleleft img.is-active, 
+  #cycleright img.is-active {
+    opacity: 1;
+  }
  
  #cycleleft script, #cycleright script {
   display: none !important; }
