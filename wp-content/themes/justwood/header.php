@@ -10,7 +10,7 @@
 <?php endif; ?>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_enqueue_script("jquery"); ?>
-<?php if($post->ID == 35) { ?>
+<!-- <?php if($post->ID == 35) { ?>
 <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAtlEa5gcrGtfRnrtAULn8ahSzKGkHxE_JpGgpafEouZdtrnh2txQaPq2Lk83UXiL3mlT_QxZb2HhrXw" type="text/javascript"></script>
 <script type="text/javascript">
 function createMarker(point,html) {
@@ -34,7 +34,7 @@ function load() {
 }
 </script>
 
-<?php } ?>
+<?php } ?> -->
 <title></title>
 <?php
 wp_enqueue_script('comment-reply');
