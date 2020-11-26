@@ -290,6 +290,26 @@ img#logoimg {
   color: #786443;
   font-size: 32px; }
 
+
+.header__contact__details {
+  display: flex;
+  align-items: flex-end;
+}
+.header__instagram {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header__split {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 24px;
+  background-color: #786443;
+  opacity: .5;
+  margin-right: 10px;
+}
+
 /*---- bottom links ----*/
 div#bottomlinks {
   border-top: 1px solid #dedbd7;
@@ -499,5 +519,32 @@ div#products div.product p, div#products2 div.product p {
 
 div#products div.product h2.product {
   margin: 10px 0; }
+
+
+.footer__instagram {
+  font-size: 12px;
+  display: flex;
+  color: #786443;
+  position: relative;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer__instagram span {
+  margin-right: 3px;
+}
+
+.footer__instagram img {
+  width: 15px;
+}
+
+.footer__instagram:before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 15px;
+  background: #666666;
+  margin-right: 8px;
+}
 
 /*# sourceMappingURL=app.css.map */

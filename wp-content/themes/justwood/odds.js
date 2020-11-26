@@ -34,10 +34,14 @@ $j(function(){
 
     } 
 
+    if (galleryRight) {
+      setTimeout(function(){
+        setGallery(galleryRight)
+      }, 250)
+    }
 
-    setTimeout(function(){
-      setGallery(galleryRight)
-    }, 250)
-    setGallery(galleryLeft)
+    if (galleryLeft) {
+      setGallery(galleryLeft)
+    }
 
 });
