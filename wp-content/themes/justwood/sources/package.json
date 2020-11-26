@@ -1,0 +1,17 @@
+{
+  "name": "sources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss ../css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" & browser-sync start --proxy 'http://localhost:8888/' --files '../css'"
+  },
+  "author": "",
+  "license": "ISC"
+}

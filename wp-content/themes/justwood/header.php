@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?> xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/app.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/css/main.css" media="screen" />
 <?php if(is_front_page()) : ?>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/homepage.css" media="screen" />
 <meta name="google-site-verification" content="Q4HTgviP9-OJgLp7dthYXL2Uur5yBw1KF9Us4pTQzwc" />
