@@ -1,0 +1,117 @@
+#mainpage h2 a,
+#mainpage h2 a
+{
+	color: #fff;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+    // display: block;
+    margin-bottom: 20px;
+}
+
+.hpl, div.hpr {
+	position: relative;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#mainpage .hpl p,
+#mainpage .hpr p {
+	color: #443117;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+	color: #333;
+	padding: 0px 10px;
+	padding-bottom: 10px;
+}
+
+#mainpage .hpl  p.fst {
+    color: #B79F75;
+}
+
+#mainpage .hpl p.fst,
+#mainpage .hpr p.fst {
+	font-size: 1rem;
+}
+
+#mainpage .hpl  p.snd,
+#mainpage .hpr  p.snd {
+	margin-top: 15px;
+}
+
+#mainpage{
+	background: none;
+	padding-top: 0px;
+}
+
+.homepage__columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.hp-box {
+    width: 100%;
+    border-top: 4px solid $brown;
+    border-bottom: 4px solid $brown;
+    display: flex;
+    flex-direction: column;
+
+    h2 a {
+        color: $white !important;
+    }
+
+    @media (min-width: $phone) {
+        width: 49.5%;
+    }
+
+    &.-right{
+        border-color: $gold;
+
+        ._first {
+            background: linear-gradient(0deg, rgba(174,143,89,1) 0%, rgba(198,178,139,1) 100%);
+        }
+    }
+
+    ._first {
+        padding: 10px 15px 20px;
+        margin-top: 3px;
+        background: linear-gradient(0deg, rgba(85,65,38,1) 0%, rgba(123,100,67,1) 100%);
+    }
+
+    ._second {
+        margin-top: 3px;
+        padding: 20px 10px;
+        background: #edece8;
+        flex: 1 0 auto;
+    }
+}
+
+.hp-box__images {
+    position: relative !important;
+    width: 100%;
+    padding-top: 50%; 
+    overflow: hidden;
+}
+
+#cycleleft, #cycleright {
+    margin-top: 3px;
+}
+  
+    #cycleleft img, 
+    #cycleright img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity .5s ease-in-out;
+    }
+  
+    #cycleleft img.is-active, 
+    #cycleright img.is-active {
+      opacity: 1;
+    }
+   
+   #cycleleft script, #cycleright script {
+    display: none !important; }

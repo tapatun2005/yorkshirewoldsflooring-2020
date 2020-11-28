@@ -1,0 +1,123 @@
+.header {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 35px;
+    box-sizing: border-box; 
+    background: $white;
+    flex-wrap: wrap;
+
+    @media (max-width: $tablet) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      box-shadow: 0 10px 40px rgba($black, .2);
+      padding: 20px;
+    }
+
+    @media (max-width: $phone) {
+      padding: 10px;
+    }
+}
+
+.header__logo {
+    text-align: left;
+}
+  
+  .header::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    @media (max-width: $tablet) {
+      display: none;
+    }
+} 
+
+  h1 {
+    margin: 0;
+  }
+  
+  .header__logo__title {
+    color: #786443;
+    font-weight: 400;
+    margin: 5px 0; 
+    font-size: 1.15rem;
+    text-decoration: none;
+
+    @media (min-width: $phone-xs) {
+      font-size: 1.15rem;
+    }
+
+    @media (min-width: $phone) {
+      font-size: 1.9rem;
+    }
+
+    @media (min-width: $desktop) {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .header__link {
+    text-decoration: none;
+    color: rgba($black, .35);
+    font-size: 15px; 
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
+  
+  .header__logo__title span {
+    color: #baa172; }
+  
+  .header__contact {
+    text-align: right; 
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
+  
+  .header__cta {
+    margin: 0;
+    color: #baa172;
+    font-size: 20px; }
+  
+  .header__contact a {
+    text-decoration: none;
+    color: #786443;
+    font-size: 1.5rem; 
+
+    @media (min-width: $desktop) {
+      font-size: 2rem;
+    }
+  }
+  
+  
+  .header__contact__details {
+    display: flex;
+    align-items: flex-end;
+  }
+  .header__instagram {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header__split {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 24px;
+    background-color: #786443;
+    opacity: .5;
+    margin-right: 10px;
+  }

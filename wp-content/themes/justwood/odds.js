@@ -17,6 +17,7 @@ $j(function(){
       var length = imgs.length - 1
 
       var count = 0
+      imgs[0].classList.add('is-active')
 
       setInterval(function(){
           for(var i = 0; i < imgs.length; i++) {
@@ -43,5 +44,15 @@ $j(function(){
     if (galleryLeft) {
       setGallery(galleryLeft)
     }
+
+    var toggleNav = document.querySelector('.nav-toggle');
+    var mainNav = document.querySelector('.main-nav')
+    var isNavActive = false
+
+    toggleNav.addEventListener('click', function(){
+      isNavActive = !isNavActive
+      this.classList[isNavActive ? 'add' : 'remove']('is-active')
+      mainNav.classList[isNavActive ? 'add' : 'remove']('is-active')
+    })
 
 });

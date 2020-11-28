@@ -1,11 +1,6 @@
+</div>
 <div id="bottomlinks">
 	<?php get_template_part('navigation','bottom'); ?>
-	<!-- Instagram manual -->
-	<a href="https://www.instagram.com/yorkshirewoldsflooring/" target="_blank" class="footer__instagram">
-		<span>Instagram</span>
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/instagram-logo.svg" alt="Yorkshire Wolds Flooring">
-	</a>
-</div>
 </div>
 <div id="after"></div>
 <?php wp_footer(); ?>

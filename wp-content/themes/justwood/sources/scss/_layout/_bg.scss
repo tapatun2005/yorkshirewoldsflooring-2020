@@ -1,0 +1,17 @@
+div#before,
+div#after {
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  max-width: 1000px;
+  width: 100%;
+  background: url("../images/top-rip.png"); 
+  background-size: cover;
+  background-position: center bottom;
+}
+
+div#after {
+  background: url("../images/bottom-rip.png");
+  background-size: cover;
+  background-position: center bottom;
+}

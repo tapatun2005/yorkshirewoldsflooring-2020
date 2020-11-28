@@ -1,10 +1,15 @@
-<p style="float:left;">&copy; 2020 Yorkshire Wolds Flooring Ltd.</p>
-<?php
-echo wp_nav_menu(array(
-	'menu'=>'FooterMenu',
-	'container' => ''
-));
-?>
-<?php if(is_front_page()) : ?>
-	<!-- <a href="http://www.justwoodworktops.com/">JustWoodWorktops.com</a> -->
-<?php endif; ?>
+<p>&copy; 2020 Yorkshire Wolds Flooring Ltd.</p>
+
+<div class="footer-nav">
+	<?php
+	echo wp_nav_menu(array(
+		'menu'=>'FooterMenu',
+		'container' => ''
+	));
+	?>
+	<!-- Instagram manual -->
+	<a href="https://www.instagram.com/yorkshirewoldsflooring/" target="_blank" class="footer__instagram">
+		<span>Instagram</span>
+		<img src="<?php bloginfo('stylesheet_directory'); ?>/images/instagram-logo.svg" alt="Yorkshire Wolds Flooring">
+	</a>
+</div>

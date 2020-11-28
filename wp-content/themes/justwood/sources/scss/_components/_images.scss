@@ -1,0 +1,17 @@
+img {
+    max-width: 100%;;
+    height: auto;
+}
+
+img.floatme {
+    position: absolute;
+    top: 0;
+    right: 5px; 
+    transform: translate(25%, -25%);
+}
+
+img.alignright  {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}

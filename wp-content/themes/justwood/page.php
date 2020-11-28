@@ -37,12 +37,14 @@ if (in_array($post->ID,$posts)) {
 		echo '<div id="products">';
 		while ( $loop->have_posts() ) : $loop->the_post();
 			echo '<div class="product long" itemscope itemtype="http://schema.org/Product">';
+			echo '<div class="_img">';
 			if (get_post_meta($post->ID, 'Bespoke Finishing', true) ) {
 				echo "<img class=\"floatme\" src='";
 				bloginfo("template_directory");
 				echo "/images/bespoke-finish.png' alt='Bespoke finishing available on this product.' />";
 			}
 			the_post_thumbnail('',array('title' => '', 'alt' => '', 'itemprop' => 'image'));
+			echo '</div>';
 			echo '<h2 class="product"><span itemprop="name">';
 			the_title();
 			echo "</span></h2>\n";

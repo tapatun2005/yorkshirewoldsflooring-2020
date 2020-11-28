@@ -1,0 +1,65 @@
+#main {
+    padding: 15px 20px 10px 20px;
+    text-align: left;
+    margin: 0 auto !important;
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    background: url("../images/mid-bg.png");
+    background: $white;
+    @media (min-width: $tablet) {
+      display: flex;
+      padding: 15px 40px 10px 40px;
+    }
+}
+
+#mainpage {
+    // background: url(../images/category-title-background.jpg) top left no-repeat;
+    // padding-top: 50px;
+    width: 100%;
+
+    &.mainpage-nobg {
+      padding: 0; 
+      background: none;
+    }
+}
+
+
+div#mainpage li {
+  font-size: .85rem;
+  color: #554125; 
+}
+
+div#mainpage a {
+  font-weight: bold;
+  color: #554125; 
+}
+
+#mainpage h1,
+#mainpage h2,
+#mainpage h3,
+#mainpage h4 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#mainpage ol li p {
+  font-size: 1rem;
+}
+
+#mainpage ol li p strong {
+  display: block;
+  border-bottom: 1px solid #554125; 
+}
+
+#mainpage ol li p span {
+  font-weight: bold; 
+}
+
+div#mainpage p {
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+  color: #554125;
+  margin: 6px 0px 8px 0px;
+  padding-left: 10px; 
+}
