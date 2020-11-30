@@ -54,12 +54,61 @@
 .hp-box {
     width: 100%;
     border-top: 4px solid $brown;
-    border-bottom: 4px solid $brown;
     display: flex;
     flex-direction: column;
 
+    ._toggle {
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 700;
+        padding: 20px 50px 20px 20px;
+        position: relative;
+
+        &:after {
+            content: '+';
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translate(0, -50%);
+            font-size: 1.5rem;
+            opacity: .5;
+        }
+
+        &.is-active {
+            &:after {
+                content: '-';
+            }
+        }
+
+        @media (min-width: $phone) {
+            display: none;
+        }
+    }
+
+    ._content {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 4px solid $brown;
+
+        @media (max-width: $phone) {
+            display: none;
+            &.is-active {
+                display: flex;
+            }
+        }
+
+        & > div {
+            flex: 1 0 0;
+        }
+    }
+
     h2 a {
         color: $white !important;
+
+        @media (max-width: $phone) {
+            display: none;
+        }
     }
 
     @media (min-width: $phone) {
@@ -68,16 +117,27 @@
 
     &.-right{
         border-color: $gold;
-
+        ._content {
+            border-bottom: 4px solid $gold;
+        }
+        ._toggle,
         ._first {
             background: linear-gradient(0deg, rgba(174,143,89,1) 0%, rgba(198,178,139,1) 100%);
         }
     }
 
+    ._toggle,
+    ._first {
+        background: linear-gradient(0deg, rgba(85,65,38,1) 0%, rgba(123,100,67,1) 100%);
+    }
+
     ._first {
         padding: 10px 15px 20px;
         margin-top: 3px;
-        background: linear-gradient(0deg, rgba(85,65,38,1) 0%, rgba(123,100,67,1) 100%);
+
+        @media (max-width: $phone) {
+            margin-top: 0;
+        }
     }
 
     ._second {
@@ -86,6 +146,24 @@
         background: #edece8;
         flex: 1 0 auto;
     }
+
+    ._button {
+        display: block;
+        background: $brown;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: $white !important;
+        box-shadow: 0 3px 10px rgba(black,.2);
+        margin: 0 10px;
+        font-size: .9rem;
+        font-weight: 100;
+
+        @media (min-width: $phone) {
+            display: none;
+        }
+    } 
 }
 
 .hp-box__images {

@@ -41,5 +41,7 @@
 		</div>
 		<div class="nav-toggle"><span></span></div>
 	</header>
+
+	<a href="tel:01759373088" class="mobile-phone"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mobile-phone.svg" alt="Yorkshire Wolds Flooring Contact Number"></a>
 	<div id="main" style="position:relative;">
 		<?php get_template_part('navigation','main'); ?>

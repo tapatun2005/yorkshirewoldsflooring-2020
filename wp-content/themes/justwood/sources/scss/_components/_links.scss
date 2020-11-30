@@ -1,0 +1,23 @@
+.mobile-phone {
+    position: fixed;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: $brown;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+    box-shadow: 0 4px 20px rgba(black, .35);
+
+    img {
+        width: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    @media (min-width: $tablet) {
+        display: none;
+    }
+}

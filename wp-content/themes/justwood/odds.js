@@ -55,4 +55,23 @@ $j(function(){
       mainNav.classList[isNavActive ? 'add' : 'remove']('is-active')
     })
 
+
+
+    // Toggle home page
+
+    var homepageBoxes = document.querySelectorAll('.hp-box')
+    console.log(homepageBoxes)
+
+    if (homepageBoxes.length) {
+      for (var i = 0; i < homepageBoxes.length; i++) {
+        var toggle = homepageBoxes[i].querySelector('._toggle')
+
+        toggle.addEventListener('click', function(){
+          var isActive = this.className.indexOf('is-active') === -1
+          this.classList[isActive ? 'add' : 'remove']('is-active')
+          this.parentNode.querySelector('._content').classList[isActive ? 'add' : 'remove']('is-active')
+        })
+      }
+    }
+
 });
