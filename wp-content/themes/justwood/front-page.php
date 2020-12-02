@@ -2,7 +2,7 @@
 <div id="mainpage" class="mainpage-nobg">
 
 <div class="homepage__columns">
-	<div class="hpl hp-box -left">
+	<div class="hpl hp-box -left" data-href="<?php echo get_permalink(11) ?>">
 		<div id="cycleright" class="hp-box__images">
 			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered01.jpg" width="372" height="245" />
 			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/engineered02.jpg" width="372" height="245" />
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="hpr hp-box -right">
+	<div class="hpr hp-box -right" data-href="<?php echo get_permalink(6) ?>">
 		<div id="cycleleft" class="hp-box__images">
 			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid01.jpg" width="372" height="245" />
 			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/solid02.jpg" width="372" height="245" />

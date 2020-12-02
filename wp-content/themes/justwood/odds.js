@@ -15,13 +15,12 @@ $j(function(){
     function setGallery(selector) {
       var imgs = selector.querySelectorAll('img')
       var length = imgs.length - 1
-
-      var count = 0
       imgs[0].classList.add('is-active')
+      var count = 1
 
       setInterval(function(){
           for(var i = 0; i < imgs.length; i++) {
-            imgs[i].classList.add('is-remove')
+            imgs[i].classList.remove('is-active')
           }
           imgs[count].classList.add('is-active')
 
@@ -64,6 +63,7 @@ $j(function(){
 
     if (homepageBoxes.length) {
       for (var i = 0; i < homepageBoxes.length; i++) {
+
         var toggle = homepageBoxes[i].querySelector('._toggle')
 
         toggle.addEventListener('click', function(){
@@ -71,7 +71,16 @@ $j(function(){
           this.classList[isActive ? 'add' : 'remove']('is-active')
           this.parentNode.querySelector('._content').classList[isActive ? 'add' : 'remove']('is-active')
         })
+
+
+        homepageBoxes[i].addEventListener('click', function(){
+          if (window.innerWidth > 480) {
+            window.location = this.dataset.href
+          }
+        })
+
       }
     }
+
 
 });
