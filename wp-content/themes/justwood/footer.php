@@ -36,9 +36,9 @@
 	"name" : "Yorkshire Wolds Flooring",
 	"alternateName": "Yorkshire Wolds Flooring Ltd",
 	"url": "http://yorkshirewoldsflooring.co.uk/",
-	"logo": "http://yorkshirewoldsflooring.co.uk//wp-content/themes/justwood/images/justwoodflooring-logo.jpg",
+	"logo": "http://yorkshirewoldsflooring.co.uk/wp-content/themes/justwood/images/justwoodflooring-logo.jpg",
 	"description": "High Quality Hardwood Flooring Supply and Installation, by Leading Wood Floor Specialists Based In York.",
-	"telephone": "01865 522 910",
+	"telephone": "01759 373 088",
 	"address": {
 		"@type": "PostalAddress",
 		"addressLocality": "York",

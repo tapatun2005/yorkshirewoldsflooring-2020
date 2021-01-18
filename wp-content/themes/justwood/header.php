@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?> xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/css/main.v4.css" media="screen" />
 <?php if(is_front_page()) : ?>
 	<!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/homepage.css" media="screen" /> -->
 	<meta name="google-site-verification" content="Q4HTgviP9-OJgLp7dthYXL2Uur5yBw1KF9Us4pTQzwc" />
